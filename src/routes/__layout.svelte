@@ -15,7 +15,7 @@
 	/>
 </svelte:head>
 <div class="flex items-center flex-col h-screen  mb-10">
-	<div class="flex items-center flex-col lg:w-[720px] sm:w-[608px] w-[480px] h-full">
+	<div class="flex items-center flex-col lg:w-[720px] sm:w-[608px] w-[400px] h-full">
 		<Header {page} />
 		<slot />
 		<div class="font-bold text-sm h-10 text-gray-400 mt-52">
