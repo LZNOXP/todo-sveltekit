@@ -26,7 +26,6 @@
 		const todoItems = JSON.parse(localStorage.getItem('todoItems'));
 		$todoStore = todoItems ?? [];
 		todos = $todoStore.filter((todo) => todo.done);
-		console.log('complete mounted');
 	});
 </script>
 
